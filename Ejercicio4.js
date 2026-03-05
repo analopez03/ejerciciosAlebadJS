@@ -22,6 +22,7 @@ function nombreUsuario(user) {
 
 /*Segundo código
 Tenemos una función que calcula el salario anual y el nombre del usuario*/
+// Cambiada la variable user de const a let ya que se va a modificar su contenido posteriormente en el tercer código.
 let user = {
   name: "Pedro",
   last: "Sánchez",
