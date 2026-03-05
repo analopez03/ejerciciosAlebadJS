@@ -32,7 +32,8 @@ let user = {
 };
 
 function userData(user) {
-  const annualSalary = user.salary * 12;
+  const meses = 12; // Añadido para no dejar lo que se denomina números mágicos en el código.
+  const annualSalary = user.salary * meses;
   const fullName = `${user.name} ${user.last}`;
 
   return `Me llamo ${fullName} y cobro ${annualSalary}€ al año`;
