@@ -15,7 +15,7 @@ console.log([1] - 1); // Aparece 0 porque el operador - convierte un array a num
 // Comparaciones con objetos
 console.log({} + {}); // Aparece "[object Object][object Object]" porque el operador + convierte los objetos a cadenas de texto, y dos objetos vacíos se convierten en la cadena "[object Object]", y luego concatena ambas cadenas.
 console.log({} === {}); // Aparece false porque aunque ambos son objetos vacíos, son dos objetos distintos.
-console.log([] === {});
+console.log([] === {}); //
 
 // Comparaciones especiales
 console.log(null + 1);
