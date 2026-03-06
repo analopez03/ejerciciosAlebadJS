@@ -1,5 +1,4 @@
-/*Ejercicio 1, Nomenclatura y tipo de variables
-Escribe una varible llamada user name utilizando las siguientes nomenclaturas:
+/*Ejercicio 1, Nomenclatura y tipo de variables Escribe una varible llamada user name utilizando las siguientes nomenclaturas:
 Camel case:
 Pascal case:
 Snake case:
