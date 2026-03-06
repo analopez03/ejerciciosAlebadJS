@@ -31,7 +31,7 @@ label{
 
 #enviar {
     width: 100%;
-    background-color: #4CAF50;
+    background-color: #000000;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -40,14 +40,13 @@ label{
 }
 
 #terminos {
-  display: inline-flex;      /* o block-flex si son filas completas */
+  display: inline-flex;      
   align-items: center;
   margin-right: 1%;
   margin-bottom: 2%;
 }
 
 #terminos input {
-  /* el control aparece «ordenado» al principio */
-  order: -1;                 /* mueve el input al inicio */
-  margin-right: .4em;        /* separación entre control y texto */
+  order: -1;                
+  margin-right: .4em;       
 }
