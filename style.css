@@ -1,10 +1,24 @@
+body{
+    justify-content: center;
+    display: flex;
+}
+
 #formulario{
     font-family: 'Arial', sans-serif;
-    width: 70%;
+    width: 60%;
     margin: 2%;
     padding: 2%;
     display: flex;
     flex-wrap: wrap;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+label{
+    width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
 }
 
 .texto {
@@ -25,14 +39,14 @@
     cursor: pointer;
 }
 
-label {
+#terminos {
   display: inline-flex;      /* o block-flex si son filas completas */
   align-items: center;
   margin-right: 1%;
   margin-bottom: 2%;
 }
 
-label input {
+#terminos input {
   /* el control aparece «ordenado» al principio */
   order: -1;                 /* mueve el input al inicio */
   margin-right: .4em;        /* separación entre control y texto */

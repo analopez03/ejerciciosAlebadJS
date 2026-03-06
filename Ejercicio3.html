@@ -14,45 +14,59 @@
       id="formulario"
       aria-label="Formulario de registro"
     >
-      <label for="username">Nombre Usuario</label>
-      <input
-        type="text"
-        name="username"
-        id="username"
-        class="texto"
-        placeholder="Name"
-        required
-        aria-describedby="username"
-      />
+      <label for="username"
+        >Nombre Usuario
+        <input
+          type="text"
+          name="username"
+          id="username"
+          class="texto"
+          placeholder="Name"
+          required
+          aria-describedby="username"
+        />
+      </label>
 
-      <input
-        type="text"
-        name="last"
-        id="apellido"
-        class="texto"
-        placeholder="Last Name"
-        required
-        aria-describedby="apellido"
-      />
-      <input
-        type="number"
-        name="age"
-        id="edad"
-        class="texto"
-        placeholder="Age"
-        required
-        aria-describedby="edad"
-      />
-      <input
-        type="email"
-        name="email"
-        id="correo"
-        class="texto"
-        placeholder="Email"
-        required
-        aria-describedby="correo"
-      />
-      <label for="terms-radio"
+      <label for="apellido"
+        >Apellido
+        <input
+          type="text"
+          name="last"
+          id="apellido"
+          class="texto"
+          placeholder="Last Name"
+          required
+          aria-describedby="apellido"
+        />
+      </label>
+
+      <label for="edad"
+        >Edad
+        <input
+          type="number"
+          name="age"
+          id="edad"
+          class="texto"
+          placeholder="Age"
+          required
+          aria-describedby="edad"
+        />
+      </label>
+
+      <label for="correo"
+        >Correo Electrónico
+        <input
+          type="email"
+          name="email"
+          id="correo"
+          class="texto"
+          placeholder="Email"
+          required
+          aria-describedby="correo"
+        />
+      </label>
+
+      <label for="terms-radio" id="terminos"
         >Agree to the terms?
         <input
           type="radio"
@@ -65,7 +79,7 @@
         />
       </label>
 
-      <label for="terms-checkbox"
+      <label for="terms-checkbox" id="terminos"
         >Agree to the terms?
         <input
           type="checkbox"
