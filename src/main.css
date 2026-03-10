@@ -1,0 +1,4 @@
+@import "tailwindcss";
+
+/* Importa tu card.css aquí si quieres que se procese junto */
+@import "./css/card.css";
