@@ -1,0 +1,13 @@
+/* assets/css/main.css */
+@layer base {
+  :root {
+    --primary: #3b82f6;
+    --background: #ffffff;
+    --text: #1f2937;
+  }
+
+  body {
+    @apply bg-[var(--background)] text-[var(--text)] antialiased;
+    font-family: 'Inter', sans-serif;
+  }
+}
