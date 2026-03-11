@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+.btn-primary {
+    background-color: black;
+    color: white;
+  @apply bg-black text-white px-6 py-2 rounded-lg transition-all;
+}
+
+.btn-primary:hover {
+  background-color: #979797; 
+  color: rgb(0, 0, 0);
+  @apply shadow-lg;
+}
